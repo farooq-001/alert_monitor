@@ -112,7 +112,7 @@ def notify_boot():
     body = f"""
     <html><body>
     <h2>🔔 System Boot Detected - {HOSTNAME}</h2>
-    <p><p><b>🖥️ System Info:</b><br>
+    <p><b>🖥️ System Info:</b><br>
        <b>🕒 Time:</b> {now}<br>
        <b>🧭 Hostname:</b> {HOSTNAME}<br>
        <b>🌐 IP Address:</b> {ip}<br>
